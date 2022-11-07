@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"target":                           "ESNext",
+		"experimentalDecorators":           true,
+		"emitDecoratorMetadata":            true,
+		"module":                           "CommonJS",
+		"rootDir":                          "./src",
+		"moduleResolution":                 "Node",
+		"baseUrl":                          "./",
+		"sourceMap":                        true,
+		"outDir":                           "./lib",
+		"sourceRoot":                       "./src",
+		"esModuleInterop":                  true,
+		"forceConsistentCasingInFileNames": true,
+		"strict":                           false,
+		"noImplicitAny":                    true,
+		"strictNullChecks":                 true,
+		"strictFunctionTypes":              true,
+		"strictBindCallApply":              true,
+		"strictPropertyInitialization":     true,
+		"noUnusedLocals":                   false,
+		"noUnusedParameters":               false,
+		"skipLibCheck":                     true
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"lib"
+	]
+}

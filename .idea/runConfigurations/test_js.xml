@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="test.js" type="NodeJSConfigurationType" path-to-node="node" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/../query-igniter/lib">
+    <method v="2" />
+  </configuration>
+</component>

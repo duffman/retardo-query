@@ -1,0 +1,22 @@
+{
+	"name": "cm-sql-igniter",
+	"version": "1.0.0",
+	"description": "SQL Query Builder",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tsc"
+	},
+	"repository": "git@github.com:duffman/sql-igniter.git",
+	"author": "Patrik Forsberg - Coldmind AB <patrik.forsberg@coldmind.com>",
+	"license": "LGPL-2.1",
+	"dependencies": {
+		"typescript": "^4.8.4"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.3.3",
+		"@types/mocha": "^10.0.0",
+		"@types/node": "^18.8.3",
+		"chai": "^4.3.6",
+		"ts-node": "^10.9.1"
+	}
+}

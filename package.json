@@ -1,0 +1,21 @@
+{
+	"name": "query-igniter",
+	"private": true,
+	"version": "1.0.0",
+	"description": "SQL Query Compilers for different database types",
+	"main": "../index.js",
+	"scripts": {
+		"build": "npx tsc"
+	},
+	"repository": "git@github.com:duffman/sql-igniter.git",
+	"author": "Patrik Forsberg - Coldmind AB <patrik.forsberg@coldmind.com>",
+	"license": "MPL2.0",
+	"dependencies": {
+		"sqlstring": "^2.3.3",
+		"tspath": "^2.6.8"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.9",
+		"@types/sqlstring": "^2.3.0"
+	}
+}
